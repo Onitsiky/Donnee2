@@ -1,0 +1,1 @@
+insert into Vehicules(nombre_places, places_dispo,matricule) values (20,3,'3215 TAV'), (20,3, '1234 MUW'),(20,1, '3412 TAR'),(30,0,'3124 OPT'), (30,6,'3244 ERL'), (30,0,'2145 TAR'); 
