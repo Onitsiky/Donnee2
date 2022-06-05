@@ -1,0 +1,1 @@
+insert into Ville(nom_ville) values ('Antananarivo'),('Fianarantsoa'), ('Toamasina'),('Mahajange'),('Morondava');
