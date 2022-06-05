@@ -1,4 +1,4 @@
-insert into Client(nom_client, prenom_client, contact_client) values ('RAKOTONANDRASANA', 'Jean Michel', 0345687298),
+insert into Client(nom_client, prenom_client,contact) values ('RAKOTONANDRASANA', 'Jean Michel', 0345687298),
 ('RADRIANARIJAONA', 'Clément', 0328742798), ('RAKOTOMANANA', 'Fitiavana',0323287409),('RATSIRAHONANA', 'Henri', 0329883498),
 ('RAMANANARIVO','Ernest', 0334373287),('RANDRIANALISOA', 'Emmanuel', 0324234254),
 ('FIHANTANA', 'Mitia', 0333287322),('RAZANAMANANA', 'Marie', 0324364376), ('RANDRIATSIFERANA', 'Ny Koloina', 0341234311),
