@@ -1,0 +1,1 @@
+SELECT nom_client,jour_depart from client,voyage where jour_depart = nom_client;
