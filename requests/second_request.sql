@@ -1,0 +1,1 @@
+select id_voyage from voyage where heure_depart >'00:00' and heure_depart < '18:00';
