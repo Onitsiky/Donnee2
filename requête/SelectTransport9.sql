@@ -1,0 +1,1 @@
+SELECT nom_client,jour_depart,montant_paye from client, voyage INNER JOIN reserver ON id_client = montant_paye;
