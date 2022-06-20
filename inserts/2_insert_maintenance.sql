@@ -1,0 +1,2 @@
+insert into maintenance (nom_maintenance, cout) values ('lubrification moteur', 40000),('Entretien des pneus', 30000),('entretien des amortisseurs', 100000),
+('Révision des freins', 100000), ('Changement de freins', 250000);
