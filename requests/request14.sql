@@ -1,8 +1,10 @@
 -- afficher la colonne type sur la première ligne dans la methode getMax
+
 SELECT type FROM
     (
 -- afficher le type et ses nombre total ordoonée en décroissante
 -- et numéroter les lignes
+
 	    SELECT 
         (type , COUNT(type) count , ROW_NUMBER() OVER (ORDER BY type) row)
 	    FROM reserver 
