@@ -7,15 +7,15 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 function BrandExample() {
   return (
     <>
-       <Navbar bg="dark" variant="dark">
+       <Navbar bg="light" variant="light" sticky='top'>
         <Container>
-        <img src='./logo1.png' width='200px'/>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+        
+          <Navbar.Brand href="#home">Acceuil</Navbar.Brand>
+          <Navbar.Brand href="#home">Reserver</Navbar.Brand>
+          <Navbar.Brand href="#home">Apropos</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Accueil</Nav.Link>
-            <Nav.Link href="#features">Réserver</Nav.Link>
-            <Nav.Link href="#pricing">Apropos</Nav.Link>
           </Nav>
+          <img src='./logo2.png' width='200px' height='70px' alt='introuvable'/>
         </Container>
       </Navbar>
     </>
