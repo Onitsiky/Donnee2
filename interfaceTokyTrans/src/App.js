@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import './App.css';
 import CarouselHand from './Components/Carrousel';
@@ -55,6 +56,18 @@ function App() {
         <br/><br/><br/>
         <Footer/>
     </>
+=======
+import './App.css';
+import Footer from './Components/Footer';
+import MyNavbar from './Components/NavBar';
+
+function App() {
+  return (
+  <>
+    <MyNavbar/>
+    <Footer/>
+  </>
+>>>>>>> d98525420c60453aee204f1ec3922036deb3c4e6
   );
 }
 
