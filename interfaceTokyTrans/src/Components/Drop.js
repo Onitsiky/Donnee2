@@ -4,7 +4,7 @@ import React from 'react';
 
 function Drop() {
   return (
-    <DropdownButton id="dropdown-basic-button" title="Dropdown button">
+    <DropdownButton id="dropdown-basic-button" title="Tous">
       <Dropdown.Item href="#/action-1">Jour</Dropdown.Item>
       <Dropdown.Item href="#/action-2">Nuit</Dropdown.Item>
     </DropdownButton>

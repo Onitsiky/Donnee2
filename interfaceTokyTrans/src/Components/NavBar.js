@@ -11,7 +11,7 @@ function BrandExample() {
         <Container>
         
           <Navbar.Brand href="#home">Acceuil</Navbar.Brand>
-          <Navbar.Brand href="#home">Reserver</Navbar.Brand>
+          <Navbar.Brand href="#right">Reserver</Navbar.Brand>
           <Navbar.Brand href="#home">Apropos</Navbar.Brand>
           <Nav className="me-auto">
           </Nav>

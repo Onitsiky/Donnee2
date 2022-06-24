@@ -5,6 +5,10 @@ import Drop from './Components/Drop';
 import Mycard from './Components/Mycard';
 import BrandExample from './Components/NavBar';
 import MyTable from './Components/Table';
+import Client from "./Components/Client";
+import Redrop from "./Components/Redrop";
+import Footer from "./Components/Footer";
+import Reserver from "./Components/Reservation";
 
 function App() {
   return (
@@ -28,11 +32,28 @@ function App() {
       <br/>
       <br/>
       <br/>
-      <h1 className='text-center'>Voyages du jour</h1>
       <div className='container'>
-          <Drop/>
-          <MyTable/>
+          <div className='row'>
+              <div className='col-6'>
+                  <h1 className='text-center'>Voyages du jour</h1>
+                  <br/><br/><br/>
+                  <Drop />
+                  <MyTable/>
+              </div>
+              <div className='col-6'>
+                  <h1 className='text-center'>Voyageurs</h1>
+                  <br/><br/><br/>
+                    <Redrop/>
+                  <Client/>
+              </div>
+          </div>
       </div>
+        <br/><br/><br/>
+        <div className='container'>
+            <Reserver/>
+        </div>
+        <br/><br/><br/>
+        <Footer/>
     </>
   );
 }
